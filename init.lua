@@ -36,6 +36,8 @@ require('keymaps')
 
 require('autocomplete_init')
 
+require('telescope_init')
+
 vim.cmd('colorscheme base16-schemer-dark')
 
 
