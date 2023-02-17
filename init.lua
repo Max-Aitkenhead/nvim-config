@@ -1,4 +1,3 @@
-
 -- adds line numbers
 vim.opt.number = true
 
@@ -21,6 +20,10 @@ vim.opt.termguicolors = true
 -- syntax highlighting
 vim.opt.syntax = 'on'
 
+vim.opt.autoindent = true
+vim.opt.smartindent = false
+vim.opt.cindent = false
+
 				-- auto completion
 vim.opt.completeopt='menuone,noinsert,noselect'
 
@@ -39,6 +42,6 @@ require('autocomplete_init')
 require('telescope_init')
 
 vim.cmd('colorscheme base16-schemer-dark')
-
+vim.cmd('filetype indent off')
 
 
