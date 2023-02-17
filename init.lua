@@ -45,3 +45,5 @@ vim.cmd('colorscheme base16-schemer-dark')
 vim.cmd('filetype indent off')
 
 
+vim.cmd('set rnu')
+
